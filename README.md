@@ -3,14 +3,64 @@
 ## 1. Запуск программы
 *   **Предварительные условия:** У вас должен быть установлен Java Development Kit (JDK) и Apache Maven.
 *   **Инструкция по запуску:**
-    1.  Откройте терминал или командную строку.
-    2.  Перейдите в папку с проектом (где находится файл `pom.xml`).
-    3.  Выполните команду: `mvn clean install && mvn exec:java -Dexec.mainClass="com.financeapp.Main"`
+    -  Откройте терминал или командную строку.
+    -  Перейдите в папку с проектом (где находится файл `pom.xml`).
+    -  Выполните команду: `mvn clean install && mvn exec:java -Dexec.mainClass="com.financeapp.Main"`
 *  После запуска вы увидите меню в консоли.
 
 ## 2. Структура программы:
 
-FinanceApp/ ├── pom.xml ├── src/ │ ├── main/ │ │ ├── java/ │ │ │ └── com/ │ │ │ └── financeapp/ │ │ │ ├── Main.java │ │ │ ├── models/ │ │ │ │ ├── User.java │ │ │ │ ├── Wallet.java │ │ │ │ ├── Transaction.java │ │ │ │ ├── IncomeCategory.java │ │ │ │ └── ExpenseCategory.java │ │ │ ├── services/ │ │ │ │ ├── AuthService.java │ │ │ │ ├── FinanceService.java │ │ │ │ └── FileService.java │ │ │ └── utils/ │ │ │ ├── AuthenticationException.java │ │ │ ├── BudgetExceededException.java │ │ │ └── CategoryNotFoundException.java │ │ └── resources/ (Optional - for external configuration files) │ └── test/ (Optional - for JUnit tests) │ └── … └── README.md
+FinanceApp/
+<br>
+&nbsp; &nbsp; &nbsp;|-- pom.xml
+<br>
+&nbsp; &nbsp; &nbsp;|-- src/
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- main/
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- java/
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- com/
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- financeapp/
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- Main.java
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- models/
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- User.java
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- Wallet.java
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- Transaction.java
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- IncomeCategory.java
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- ExpenseCategory.java
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- services/
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- AuthService.java
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- FinanceService.java
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- FileService.java
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- utils/
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- AuthenticationException.java
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- BudgetExceededException.java
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- CategoryNotFoundException.java
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- resources/  (Optional - for external configuration files)
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|-- test/          (Optional - for JUnit tests)
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|    |-- ...
+<br>
+&nbsp; &nbsp; &nbsp;|-- README.md
 
 Программа "FinanceApp" состоит из следующих основных классов и пакетов:
 
