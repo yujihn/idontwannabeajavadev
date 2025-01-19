@@ -10,32 +10,7 @@
 
 ## 2. Структура программы:
 
-FinanceApp/
-├── pom.xml
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── financeapp/
-│   │   │           ├── Main.java
-│   │   │           ├── models/
-│   │   │           │   ├── User.java
-│   │   │           │   ├── Wallet.java
-│   │   │           │   ├── Transaction.java
-│   │   │           │   ├── IncomeCategory.java
-│   │   │           │   └── ExpenseCategory.java
-│   │   │           ├── services/
-│   │   │           │   ├── AuthService.java
-│   │   │           │   ├── FinanceService.java
-│   │   │           │   └── FileService.java
-│   │   │           └── utils/
-│   │   │               ├── AuthenticationException.java
-│   │   │               ├── BudgetExceededException.java
-│   │   │               └── CategoryNotFoundException.java
-│   │   └── resources/  (Optional - for external configuration files)
-│   └── test/          (Optional - for JUnit tests)
-│       └── ...
-└── README.md
+FinanceApp/ ├── pom.xml ├── src/ │ ├── main/ │ │ ├── java/ │ │ │ └── com/ │ │ │ └── financeapp/ │ │ │ ├── Main.java │ │ │ ├── models/ │ │ │ │ ├── User.java │ │ │ │ ├── Wallet.java │ │ │ │ ├── Transaction.java │ │ │ │ ├── IncomeCategory.java │ │ │ │ └── ExpenseCategory.java │ │ │ ├── services/ │ │ │ │ ├── AuthService.java │ │ │ │ ├── FinanceService.java │ │ │ │ └── FileService.java │ │ │ └── utils/ │ │ │ ├── AuthenticationException.java │ │ │ ├── BudgetExceededException.java │ │ │ └── CategoryNotFoundException.java │ │ └── resources/ (Optional - for external configuration files) │ └── test/ (Optional - for JUnit tests) │ └── … └── README.md
 
 Программа "FinanceApp" состоит из следующих основных классов и пакетов:
 
