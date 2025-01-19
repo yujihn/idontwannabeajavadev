@@ -1,0 +1,64 @@
+{
+  "balance" : 137689.0,
+  "budgets" : {
+    "food" : 10000.0,
+    "TRANSPORT" : 666.0,
+    "OTHER" : 6666.0
+  },
+  "transactions" : [ {
+    "transactionType" : "income",
+    "amount" : 77766.0,
+    "category" : "salary",
+    "timestamp" : "2025-01-19T07:00:52.615168"
+  }, {
+    "transactionType" : "expense",
+    "amount" : 477.0,
+    "category" : "food",
+    "timestamp" : "2025-01-19T07:01:29.592948900"
+  }, {
+    "transactionType" : "income",
+    "amount" : 721.0,
+    "category" : "salary",
+    "timestamp" : "2025-01-19T07:04:18.486480400"
+  }, {
+    "transactionType" : "expense",
+    "amount" : 288.0,
+    "category" : "food",
+    "timestamp" : "2025-01-19T07:05:20.958419400"
+  }, {
+    "transactionType" : "expense",
+    "amount" : 888.0,
+    "category" : "food",
+    "timestamp" : "2025-01-19T07:06:30.694296"
+  }, {
+    "transactionType" : "income",
+    "amount" : 666.0,
+    "category" : "freelance",
+    "timestamp" : "2025-01-19T07:11:02.815796800"
+  }, {
+    "transactionType" : "expense",
+    "amount" : 5555.0,
+    "category" : "food",
+    "timestamp" : "2025-01-19T07:13:22.931984600"
+  }, {
+    "transactionType" : "income",
+    "amount" : 77742.0,
+    "category" : "SALARY",
+    "timestamp" : "2025-01-19T07:25:56.722107800"
+  }, {
+    "transactionType" : "expense",
+    "amount" : 333.0,
+    "category" : "TRANSPORT",
+    "timestamp" : "2025-01-19T07:26:33.877678700"
+  }, {
+    "transactionType" : "expense",
+    "amount" : 6665.0,
+    "category" : "OTHER",
+    "timestamp" : "2025-01-19T07:29:43.153452700"
+  }, {
+    "transactionType" : "expense",
+    "amount" : 5000.0,
+    "category" : "transfer",
+    "timestamp" : "2025-01-19T07:43:49.843538800"
+  } ]
+}

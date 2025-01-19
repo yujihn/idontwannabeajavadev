@@ -1,0 +1,10 @@
+{
+  "balance" : 5000.0,
+  "budgets" : { },
+  "transactions" : [ {
+    "transactionType" : "income",
+    "amount" : 5000.0,
+    "category" : "gifted",
+    "timestamp" : "2025-01-19T07:43:49.843538800"
+  } ]
+}
